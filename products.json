@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "name":" Long(Keep)",
+        "price": 5,
+        "image": "add_to_cart_v3-main/image/selec1.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Short",
+        "price": 10,
+        "image": "add_to_cart_v3-main/image/selec1.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Medium",
+        "price": 10,
+        "image": "add_to_cart_v3-main/image/selec1.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Super Short",
+        "price": 10,
+        "image": "add_to_cart_v3-main/image/selec1.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Thin",
+        "price": 15,
+        "image": "add_to_cart_v3-main/image/selec2.jpg"
+    },
+    {
+        "id": 6,
+        "name":" Thick",
+        "price": 15,
+        "image": "add_to_cart_v3-main/image/selec2.jpg"
+    },
+    {
+        "id": 7,
+        "name":" Curly",
+        "price": 15,
+        "image": "add_to_cart_v3-main/image/selec2.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Straight",
+        "price": 10,
+        "image": "add_to_cart_v3-main/image/selec2.jpg"
+    },
+    {
+        "id": 9,
+        "name":" Bangs & Fringes",
+        "price": 20,
+        "image": "add_to_cart_v3-main/image/selec3.jpg"
+    },
+    {
+        "id": 10,
+        "name":" Braids",
+        "price": 20,
+        "image": "add_to_cart_v3-main/image/selec3.jpg"
+    },
+    {
+        "id": 11,
+        "name":" Updos",
+        "price": 20,
+        "image": "add_to_cart_v3-main/image/selec3.jpg"
+    },
+    {
+        "id": 12,
+        "name":" Vintage",
+        "price": 25,
+        "image": "add_to_cart_v3-main/image/selec3.jpg"
+    },
+    {
+        "id": 13,
+        "name":" Xydwle",
+        "price": 25,
+        "image": "add_to_cart_v3-main/image/dad.jpg"
+    },
+    {
+        "id": 14,
+        "name":" chan",
+        "price": 25,
+        "image": "add_to_cart_v3-main/image/chan.jpg"
+    },
+    {
+        "id": 15,
+        "name":" lance",
+        "price": 25,
+        "image": "add_to_cart_v3-main/image/lance.jpg"
+    },
+    {
+        "id": 16,
+        "name":" yusha",
+        "price": 25,
+        "image": "add_to_cart_v3-main/image/yusha.jpg"
+    }
+
+]

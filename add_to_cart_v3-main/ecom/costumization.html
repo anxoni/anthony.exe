@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="costumization.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <title>Customization</title>
+</head>
+<body>
+    <!-- nav bar  -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Ecom</a>
+            <!-- cart icon -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <!-- cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- content -->
+                <div class="cart-content"></div>
+                    <div class="cart-box">
+                        <img src="img/product1.jpeg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Product Shirt</div>
+                            <div class="cart-price">50$</div>
+                            <input 
+                            type="number" 
+                            name="" 
+                            id="" 
+                            value="1" 
+                            class="cart-quantity"
+                            /> 
+                        </div>
+                        <!-- remove item -->
+                        <i class='bx bx-trash-alt cart-remove' ></i>
+                    </div>
+                <!-- total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0$</div>
+                </div>
+                <!-- buy button -->
+                <button type="button" class="btn-buy">Pay Now</button>
+                <!-- Close Cart -->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <!-- product -->
+    <section class="shop container">
+        <h2 class="section-title">Shop</h2>
+        <!-- Shop content -->
+        <div class="shop-content">
+        
+        <!-- box 1 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_TO2OPo-A2cbpsHPMI8G10hpzYMrXxPbXGyQ7bRJeLckebgIUs7dwymXvE1frmPY05QBICU61HRBbcw4DYgOEB3Vbyff5nzHKRp3DzLY2NnUdDb3WPJwUTVw1sz27lJYZzkuk4IyoQqIC7xcYjVnC44is1ArspTSz23pQUzK_qGIgbDUmuUGIaC70TjIo/s320/product1.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 2 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIfB3w7IA8dC2pNJ7k0s87ouONLAxnXkYL5s7dGmOZLPeeFMGd9mte9rEgLAw6lMkuAxGc_nGPTCeE8WoFSAaquNNaBUwrMnX99sF2Wj8IyS3LhyVeuDAVYYX4OVlF9nXAr6dikHKeLB4bUphXkUR4VCggmS0xyE5qbES1u09qoPStMVzFtVA87vt5_bqf/s320/product2.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 3 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQXELsNnWERAJl-blCgUERc_pmBVjrhp2F6-QUzqJPTowvHfXQWXb3eYG8hMUidLAFY_okVysJOq1q-Qyb5sh4Yl8mdJ4mMHQnTKbCYan3kGWFL_wZXfrlGyzBK4WvSPtUBSsGhAuzHSDO2cRh5Z3fxDkwxt-Zw4kwAQa9xBh4dtLyYchfK8z2_SLTl8jY/s320/product3.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 4 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVBQ7EIKSHoo6b70lOc9iNpug1T6SaJPZTyv-USiq5mzGaZUSnsCYrAJroscHMbsMmR-rUNfAVFpDqCHq6U6e2rEvCBGXbWNni2IWOPUSJFrG3424mV9Q6fE4wst0qRXtfdhyphenhyphenhOGSgoMmYY04oVxwNy2efm-34z7j67BlrYPKGNaKELwsq5vdPpuowMDQ2/s320/product4.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 5 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP_Hs1HhnWMqGCG03Dp6-k7hbSdpnssaJ2EBGoThey4Ec_cv9EVicqtrZ-JHGQdp9SQeiYdoegOVajc-ZwxDsYpHC2YYfTxCn5H6Wo7dvBmo6Zin8HUxzkzKeaZrDwgkhukt3uhvYLPmXeu6g2FoodaH76ESrKh-0QlRyiZD0WPQqTvX_4JFX6Rv_xOQHI/s320/product5.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 6 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZrIIxRLRDAnq4gKycgTFiz5yI80zlTRk9ezkfWh2CiN6oX5vFcTo_tQ1Gu2Ko_3Sm01wlTB5kp4cQmeXxc12BePBfJJwauyURZItVE4hL-lgs7m7ZTtN_yBLwESMCbnDqc13WFLo_H3q85mRI2KSCNcuSteVer9JHfELapwHyIKRal6tz65KZXszPEYG8/s320/product6.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 7 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEji5EgmKVMAW-jNpE9PfreQuHx5yFH4tde1tITQSI273eJfrCugeTrBzcItzXTomcam8KRuZi5-lzd4BkSPSbfjGcJBnzRrF8WvaiZz_IVT_oH1dolNjZCslJCB9zJOGwvi6yIYcCIiAD98p09xyJPhJRvzlY_g5MHSH2j04dGkED9w8fxk87n79lDN0JH7/s320/product7.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        <!-- box 8 -->
+        <div class="product-box">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-AFVqE3riZDiL1W7-tWQ_-kOznvt89iMETtmsmJXv7mDi1qVNSyCVUGICL4xjR_iIC-J7iH0xFUiWr6xGuXWrsBNF-tQaf8xebnP30oJb6g1_8yJbLATw0k9TlBAgMNwmecfQrv12QTT_BA8jyTh_S2PSB0rdsAa3vZd19leItfrxa3fOMo8OqBnlApC-/s320/product8.jpeg" alt="" class="product-img">
+            <h2 class="product-title">asdaskld</h2>
+            <span class="price">5$</span>
+            <i class='bx bx-shopping-bag add-cart' ></i>
+        </div>
+        </div>
+    </section>
+        <!-- Shop content -->
+
+
+            <!-- box 1 -->
+
+    <!-- link to js -->
+    <script src="costumization.js"></script>
+</body>
+</html>
